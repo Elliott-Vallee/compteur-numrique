@@ -15,4 +15,7 @@ basic.forever(function () {
     if (10 == Nombre) {
         basic.showString("MAX")
     }
+    if (Nombre >= 0) {
+        Nombre = 0
+    }
 })
